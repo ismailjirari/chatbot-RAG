@@ -56,35 +56,24 @@ AI-Chatbot-with-Tensorflow-master - RAG/
 ### 1. Clone the Repository
 
 ```bash
-Copier
-Modifier
 git clone https://github.com/your-username/AI-Chatbot-with-Tensorflow-RAG.git
 cd AI-Chatbot-with-Tensorflow-RAG
 ```
 ### 2. Set Up Virtual Environment
 ```bash
-Copier
-Modifier
-
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 ```
 ### 3. Install Requirements
 ```bash
-Copier
-Modifier
 pip install -r requirements.txt
 ```
 ### 4. Train the Model (Optional)
 ```bash
-Copier
-Modifier
 python train.py
 ```
 ### 5. Run the Application
 ```bash
-Copier
-Modifier
 python app.py
 # Then go to http://127.0.0.1:5000 in your browser.
 ```
