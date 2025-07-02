@@ -15,7 +15,7 @@ This project is an intelligent AI-powered chatbot built with TensorFlow. It uses
 ---
 
 ## 📁 Project Structure
-
+```bash
 AI-Chatbot-with-Tensorflow-master - RAG/
 │
 ├── app.py # Main Flask app
@@ -46,10 +46,8 @@ AI-Chatbot-with-Tensorflow-master - RAG/
 │
 ├── venv/ # Virtual environment (not tracked by Git)
 └── pycache/ # Compiled Python cache
+```
 
-yaml
-Copier
-Modifier
 
 ---
 
@@ -58,30 +56,38 @@ Modifier
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/AI-Chatbot-with-Tensorflow-RAG.git
-cd AI-Chatbot-with-Tensorflow-RAG
-2. Set Up Virtual Environment
-bash
 Copier
 Modifier
+git clone https://github.com/your-username/AI-Chatbot-with-Tensorflow-RAG.git
+cd AI-Chatbot-with-Tensorflow-RAG
+```
+### 2. Set Up Virtual Environment
+```bash
+Copier
+Modifier
+
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
-3. Install Requirements
-bash
+```
+### 3. Install Requirements
+```bash
 Copier
 Modifier
 pip install -r requirements.txt
-4. Train the Model (Optional)
-bash
+```
+### 4. Train the Model (Optional)
+```bash
 Copier
 Modifier
 python train.py
-5. Run the Application
-bash
+```
+### 5. Run the Application
+```bash
 Copier
 Modifier
 python app.py
-Then go to http://127.0.0.1:5000 in your browser.
+# Then go to http://127.0.0.1:5000 in your browser.
+```
 
 📊 Data & Model
 The chatbot is trained on intent patterns and responses defined in intents.json.
